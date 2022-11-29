@@ -21,3 +21,7 @@
     clear: both;
     height: 0;
 }
+
+.social-list > li {
+    display: inline-block;
+}
