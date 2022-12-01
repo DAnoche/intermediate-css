@@ -26,13 +26,26 @@
     height: 0;
 }
 
+.social-list {
+    text-align: center;
+    padding: 0;
+    list-style: none;
+}
+
 .social-list > li {
     display: inline-block;
-    background-color: green;
-    height: 60px;
-    width: 60px;
+    background-color: rgb(132, 184, 132);
+    height: 3.5em;
+    width: 3.5em;
     border-radius: 50%;
     box-sizing: border-box;
+    padding: 1.25em;
+    font-size: 1em;
+    line-height: 1;
+}
+
+.social-list a {
+    text-decoration: none;
 }
 
 .bio-box > img {
@@ -47,11 +60,7 @@
 }
 
 .full-hero-hero-home {
-    min-height: 45vh;
+    min-height: 40vh;
     min-width: 100%;
     background-color: aquamarine;
-}
-
-.full-hero-hero-home > ul {
-    text-align: center;
 }
