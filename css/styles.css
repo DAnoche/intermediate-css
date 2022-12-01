@@ -2,7 +2,7 @@
     border: 1px solid #000;
     float: left;
     font-size: 1rem;
-    padding: 0 2% 2% 2%;
+    padding: 0 2% 2%;
     width: 23%;
     box-sizing: border-box;
     margin: 40px 1% 0;
@@ -28,6 +28,11 @@
 
 .social-list > li {
     display: inline-block;
+    background-color: green;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    box-sizing: border-box;
 }
 
 .bio-box > img {
@@ -41,7 +46,12 @@
     text-align: center;
 }
 
-.full-hero-hero-home ul {
-    height: 300px;
+.full-hero-hero-home {
+    min-height: 45vh;
+    min-width: 100%;
     background-color: aquamarine;
+}
+
+.full-hero-hero-home > ul {
+    text-align: center;
 }
